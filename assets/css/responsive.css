@@ -1,0 +1,89 @@
+@media (max-width:1023px) {
+    .hide-on-mobile-tablet{
+        display: none
+    }
+    .header-cart:hover .top-cart-content {
+        display: none;
+    }
+    /* header */
+    .header-search{
+        max-width: unset;
+        margin-right: 16px;
+        margin-left: 28px;
+        border-radius: 20px;
+    }
+    .header-search .btn-search{
+        background: #fcaf17 url('https://bizweb.dktcdn.net/100/438/408/themes/848101/assets/search.svg') center center no-repeat;
+        overflow: hidden;
+        border-radius: 0 20px 20px 0;
+    }
+    .headerWishlistCount{
+        top: -10px;
+    }
+    .category-action{
+        display: block;
+      }
+}
+
+@media (min-width: 740px) and (max-width:1023px) {
+    .hide-on-tablet{
+        display: none;
+    }
+}
+
+@media (max-width: 739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+    /* header */
+    .header-search{
+        height: 34px;
+    }
+    /* main_slider */
+    .main__slider-pc{
+        display: none;
+    }
+    .main__slider-phone{
+        display: block;
+    }
+
+    .main__services{
+        display: none;
+    }
+    /* footer */
+    .footer{
+        padding-top: 25px;
+    }
+    .footer .logo{
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer-motto{
+        text-align: center;
+    }
+    /* Gap section */
+    .section-product-new{
+        padding: 20px 0 10px;
+    }
+    .section-product-new__title{
+        margin-bottom: 10px;
+    }
+    .main__section-banner{
+        padding: 20px 0 10px;
+    }
+    .main__section-products {
+        padding: 10px 0 15px;
+    }
+    .main__section-products .title-block{
+        display: none;
+    }
+    /* base css */
+    .title-block{
+        margin-bottom: 12px;
+    }
+    .btn-more{
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+}
