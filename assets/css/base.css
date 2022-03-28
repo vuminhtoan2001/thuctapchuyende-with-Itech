@@ -10,6 +10,7 @@
     --height-topbar_banner: 80px;
     --height-header_navbar: calc(var(--height-header) - var(--height-topbar));
     --width-nav-mobile:330px;
+    --height-nav-mobile:60px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -22,30 +23,12 @@ html{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-/* .grid{
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
+.d-none{
+    display: none;
 }
-
-.grid_full-width{
-    width: 100%;
+.d-block{
+    display: block;
 }
-
-.grid_row{
-    display: flex;
-    flex-wrap: wrap;
-} */
-/* .container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.container-padding{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 10px;
-} */
-
 .btn-more{
     line-height: 46px;
     border: 1px solid var(--primary-color);
@@ -69,4 +52,54 @@ html{
     color: var(--primary-color);
     text-transform: uppercase;
     line-height: 1.8rem;
+}
+.flash-title{
+    background-color: #feeeea;
+    color: #22215b;
+    text-align: center;
+    padding: 5px 0 5px;
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+.flash-title b{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+/* Css sidebar */
+.max-height{
+    max-height: 125px;
+    overflow: hidden;
+}
+.max-height-unset{
+    max-height: unset;
+}
+.filter-show-less,
+.filter-show-more{
+    font-size: 1.6rem;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    /* display: none; */
+}
+/* design scrollbar */
+.edit-scrollbar::-webkit-scrollbar{
+    width: 4px;
+}
+.edit-scrollbar::-webkit-scrollbar-thumb{
+    background-color: #e3e3e3;
+}
+.edit-scrollbar-filter::-webkit-scrollbar{
+    width: 6px;
+}
+.edit-scrollbar-filter::-webkit-scrollbar-thumb{
+    background-color: #7a7a9d;
+    border-radius: 20px;
+}
+.edit-scrollbar-filter::-webkit-scrollbar-track{
+    background-color: #dde1ef;
+}
+.edit-scrollbar::-webkit-scrollbar-track{
+    background-color: var(--white-color) ;
 }

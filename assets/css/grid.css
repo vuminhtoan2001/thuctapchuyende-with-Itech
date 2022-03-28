@@ -10,6 +10,11 @@
     /* Css theo website jody ko phải có sẵn trong thư viện */
     padding: 0 10px;
 }
+.grid.wide-md{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
 
 .row {
     display: flex;
@@ -435,6 +440,9 @@
         /* width: 644px; */
         width: 720px;
     }
+    .wide-md{
+        width: 720px;
+    }
 }
 
 /* > PC low resolution */
@@ -443,6 +451,9 @@
         /* width: 984px; */
         width: 960px;
     }
+    /* .wide-md{
+        width: 960px;
+    } */
 
     .wide .row {
         margin-left: -12px;

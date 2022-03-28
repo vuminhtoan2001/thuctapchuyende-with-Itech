@@ -22,7 +22,13 @@
     }
     .category-action{
         display: block;
-      }
+    }
+    .section-sort .open-filter-mobile{
+        display: block;
+    }
+    .filter-price-checkbox {
+        top: -1px;
+    }
 }
 
 @media (min-width: 740px) and (max-width:1023px) {
@@ -39,6 +45,9 @@
     .header-search{
         height: 34px;
     }
+    .list-child__title-and-close span{
+        font-size: 2rem;
+    }
     /* main_slider */
     .main__slider-pc{
         display: none;
@@ -50,6 +59,9 @@
     .main__services{
         display: none;
     }
+
+
+
     /* footer */
     .footer{
         padding-top: 25px;
@@ -85,5 +97,29 @@
     .btn-more{
         font-size: 1.5rem;
         line-height: 40px;
+    }
+    /* Filter product */
+    .section-sort{
+        font-size: 1.4rem;
+    }
+    .section-sort__selected-sort__title .text {
+        width: 112px;
+        background: url('https://bizweb.sapocdn.net/100/438/408/themes/848101/assets/down_sort.svg') 93px 4px no-repeat;
+        line-height: 24px;
+        padding-left: 5px;
+        /* font-size: 1.4rem; */
+    }
+    .section-sort__selected-sort__option{
+        width: 140px;
+    }
+    .section-sort .open-filter-mobile{
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (min-width: 740px) {
+    .hide-on-tablet-pc{
+        display: none;
     }
 }

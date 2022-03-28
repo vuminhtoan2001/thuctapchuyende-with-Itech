@@ -68,27 +68,14 @@ $('.section-blog-list').slick({
   ]
 });
 
-// $('.section-blog-list').slick({
-//   infinite: false,
-//   slidesToShow: 4,
-//   slidesToScroll: 1,
-//   arrows:false,
-//   responsive: [
-//     {
-//       breakpoint: 1024,
-//       settings: {
-//         slidesToShow: ,
-//         slidesToScroll: 1,
-//         infinite: true,
-//       }
-//     },
-//     {
-//       breakpoint: 740,
-//       settings: {
-//         slidesToShow: 2,
-//         slidesToScroll: 1
-//       }
-//     },
+// slider img gallery
+$('.gallery-img').slick({
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  vertical: true,
+  arrows: true,
+  prevArrow:"<button type='button' class='gallery-img-pre'></button>",
+  nextArrow:"<button type='button' class='gallery-img-next'></button>",
 
-//   ]
-// });
+});
